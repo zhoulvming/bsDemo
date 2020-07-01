@@ -1,0 +1,178 @@
+.topbox{
+    background-color: #333333;
+    height: 40px;
+    position: relative;
+}
+.topboxbc{
+    background-color: #333333;
+}
+.topbox1{
+    position: absolute;
+    left:0;
+    padding-left:0;
+}
+.topbox2{
+    position: absolute;
+    right:0;
+}
+.topbox ul li{
+    list-style-type: none;
+    float: left;
+    margin-right: 20px;
+    line-height: 40px;
+}
+.topbox a {
+    color: #b0b0b0;
+    font-size: 14px;
+}
+
+
+
+
+.logo{
+    /* background-color:red; */
+    height: 80px;
+}
+
+
+
+
+.pageHeader{
+    background-color: #49CEFC;
+    height: 45px;
+    position: relative;
+    color: #ffffff;
+}
+.pageHeader ul li{
+    list-style-type: none;
+    float: left;
+}
+.pageHeader a {
+    color: #ffffff;
+}
+.itemMenu{
+    position: absolute;
+    left:0;
+    line-height: 45px;
+    padding-left: 30px;
+}
+.serviceMenu{
+    position: absolute;
+    right:0;
+    line-height: 45px;
+    padding-right: 30px;
+}
+.itemMenu > ul, .serviceMenu > ul {
+    margin: 0;
+    padding: 0;
+}
+.itemMenu > ul span, .serviceMenu > ul span {
+    margin-right: 12px;
+    margin-left: 12px;
+}
+
+
+
+
+.pageBody {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 15px;
+}
+.bodyLeft {
+    height: 515px;
+}
+.bodyLeft .menu {
+    background: #009999;
+    height: 530px;
+}
+.bodyLeft .content {
+    height: 530px;
+}
+.bodyLeft .content .pic{
+    height: 75%;
+    
+}
+.bodyLeft .content .pic img{
+    width: auto;
+    height: 100%;
+}
+.bodyLeft .content .tableInfo{
+    height: 25%;
+    background-color: #49CEFC;
+}
+.bodyRight {
+    padding-right: 0;
+}
+.bodyRight .loginContent{
+    height: 35%;
+    position: relative;
+}
+.bodyRight .loginContent .loginInfo {
+    padding-top: 50px;
+}
+.bodyRight .loginContent .loginButton{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.bodyRight .loginContent .btn-group{
+    width: 100%;
+}
+.bodyRight .dynamicList{
+    height: 65%;
+}
+.bodyRight .loginContent, .bodyRight .dynamicList {
+    background-color: #fff;
+}
+.bodyRight .dynamicList {
+    margin-top: 15px;
+}
+.dynamicList .listTitle {
+    border-bottom: 1px solid #efefef;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+.pageBei {
+    margin-top: 40px;
+}
+.cardlist{
+}
+.cardlist .card-title{
+    color:#010101;
+    font-size: 14px;
+}
+.cardlist .card-text{
+    color: #acacac;
+    font-size: 10px;
+}
+
+
+
+
+.leftMenu{
+    color:#ffffff;
+}
+.leftMenu a {
+    color: #ffffff;
+}
+.list-group-item {
+    background: none;
+    border: none;
+}
+
+.tableInfo {
+    font-size: 10px;
+    color:#fff;
+}
+
+
+
+.searchbox button {
+    padding: 0 5px;
+}
