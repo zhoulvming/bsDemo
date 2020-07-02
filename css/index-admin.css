@@ -10,6 +10,14 @@ body {
 .mainMenu .nav-item.active .nav-link {
     color: #fff;
 }
+.mainMenu .nav-item.login {
+    position: absolute;
+    right: 20px;
+    font-size: 12px;
+}
+.mainMenu .nav-item a{
+    color: #fff;
+}
 
 .subMenu {
     padding-top: 18px;
