@@ -4,3 +4,10 @@ body{
 a {
     text-decoration:none !important;
 }
+form{
+    font-size:14px;
+}
+.pd-hori-0 {
+    padding-left: 0;
+    padding-right: 0;
+}

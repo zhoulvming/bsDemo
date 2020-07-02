@@ -1,0 +1,31 @@
+body {
+    background: #fff;
+}
+.mainMenu nav{
+    background-color: #007CBB;
+}
+.mainMenu .nav-link {
+    color: #ccc;
+}
+.mainMenu .nav-item.active .nav-link {
+    color: #fff;
+}
+
+.subMenu {
+    padding-top: 18px;
+    background: #fff;
+}
+.subMenu .nav-link {
+    color: #999;
+}
+.subMenu .nav-item.active .nav-link {
+    color: #333;
+    border-color: #ddd;
+}
+.subMenu .nav-item.active .nav-link{
+    background-color: #ddd;
+}
+.subMenu .list-group-item {
+    background: #ddd;
+    border-width: 0;
+}

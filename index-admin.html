@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Hello, world!</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/index-admin.css">
+</head>
+
+<body>
+    
+    <div class="mainMenu">
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="#"><img src="images/elogo.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">会计</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#">应付账户</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">应收账户</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="#">资产维护 <span class="sr-only">(current)</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">目录</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">内容</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">设备</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">人力资源</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">制造</a></li>
+                    <li class="nav-item login">
+                        <div class="row">
+                            <a href="#" class="col-sm-6"><img src="" alt=""></a>
+                            <a href="#" class="col-sm-6"><img src="" alt=""></a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="subMenu">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link" id="home-tab" data-toggle="tab" href="#admin" role="tab" aria-controls="home"
+                    aria-selected="true">
+                    主菜单
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="task-tab" data-toggle="tab" href="#edit" role="tab" aria-controls="profile"
+                    aria-selected="false">
+                    任务列表
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="zichan-tab" data-toggle="tab" href="#audit" role="tab" aria-controls="contact"
+                    aria-selected="false">
+                    固定资产
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="weixiu-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact"
+                    aria-selected="false">
+                    维修保养
+                </a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link active" id="yjyd-tab" data-toggle="tab" href="#yjyd" role="tab" aria-controls="contact"
+                    aria-selected="false">
+                    一机一档模版
+                </a>
+            </li>
+        </ul>
+        <div class="tab-content border border-top-0" id="myTabContent" >
+            <div class="tab-pane fade" id="admin" role="tabpanel" aria-labelledby="home-tab">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">系统管理内容</li>
+                </ul>
+            </div>
+            <div class="tab-pane fade" id="edit" role="tabpanel" aria-labelledby="task-tab">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">新闻编辑内容</li>
+                </ul>
+            </div>
+            <div class="tab-pane fade" id="audit" role="tabpanel" aria-labelledby="contact-tab">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">新闻审核内容</li>
+                </ul>
+            </div>
+            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">问题反馈内容</li>
+                </ul>
+            </div>
+            <div class="tab-pane fade show active" id="yjyd" role="tabpanel" aria-labelledby="yjyd-tab">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <iframe id="iframe1" name="iframe1" src="yjyd-template.html" style="width:100%;height:600px;" frameborder="no" border="0" marginwidth="0" marginheight="0" scrolling="yes" allowtransparency="yes"></iframe>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+  
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+        function setHeight(el) {
+            alert("zlm");
+            el.style.height = el.contentWindow.document.body.offsetHeight + 'px';
+        }
+    </script>
+</body>
+
+</html>
