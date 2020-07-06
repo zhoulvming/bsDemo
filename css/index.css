@@ -28,7 +28,6 @@
 
 
 
-
 .logo{
     /* background-color:red; */
     height: 80px;
@@ -175,4 +174,10 @@
 
 .searchbox button {
     padding: 0 5px;
+}
+
+
+.card-menu {
+    background-color: transparent !important;
+    color: #fff;
 }

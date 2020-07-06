@@ -1,6 +1,7 @@
 body{
     background-color: #efefef;
 }
+
 a {
     text-decoration:none !important;
 }
@@ -18,10 +19,9 @@ form{
 }
 .card {
     font-size: 14px;
+    border-width: 0px;
 }
-.card-body {
-    padding-bottom: 5px !important;
-}
+
 .searchbox button {
     background: #ddd;
     border: none;
@@ -40,4 +40,36 @@ form{
 }
 .bg-primary {
     background-color: #4BCCF8 !important;
+}
+.card {
+    border-radius: 0 !important;
+}
+.card-header{
+    border-radius: 0 !important;
+}
+
+.ft-18 {
+    font-size: 18px !important;
+}
+.ft-16 {
+    font-size: 16px !important;
+}
+.ft-14 {
+    font-size: 14px !important;
+}
+.ft-12 {
+    font-size: 12px !important;
+}
+.ft-10 {
+    font-size: 10px !important;
+}
+
+.bg-leftMenu {
+    background: #4C8BA2;
+}
+.bg-header {
+    background: #4C8BA2;
+}
+.bg-item {
+    background: #3B778E;
 }
