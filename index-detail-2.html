@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>上海电气E站通</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <!-- 顶部链接 -->
+    <div class="container-fluid topboxbc">
+        <div class="topbox">
+            <ul class="topbox1">
+                <li><a href="#">平台首页</a></li>
+                <li><a href="#">手机端</a></li>
+                <li><a href="#">客服热线：80012345678</a></li>
+                <li><a href="#">在线客服</a></li>
+            </ul>
+            <ul class="topbox2">
+                <li><a href="#">登录</a></li>
+                <li><a href="#">注册</a></li>
+                <li><a href="#">购物车</a></li>
+                <li><a href="#">订单状态</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- logo&检索区域 -->
+    <div class="logo container-fluid">
+        <div class="row pt-3">
+            <div class="pagelogo col-2">
+                <a href="#"><img src="images/pagelogo.png" alt=""></a>
+            </div>
+            <div class="elogo col-2">
+                <a href="#"><img src="images/elogo.png" alt=""></a>
+            </div>
+            <div class="searchbox col-5">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="请输入产品代码、名称、服务名称......">
+                    <div class="input-group-prepend">
+                        <button class="btn btn-light">
+                            <img src="images/search.png" alt="">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 顶部菜单 -->
+    <div class="container-fluid">
+        <div class="pageHeader">
+            <div class="">
+                <div class="itemMenu">
+                    <ul>
+                        <li>铜陵电厂区域：<span></span></li>
+                        <li><a href="#">发电机</a><span>|</span></li>
+                        <li><a href="#">汽轮机</a><span>|</span></li>
+                        <li><a href="#">锅炉</a><span>|</span></li>
+                        <li><a href="#">辅机</a></li>
+                    </ul>
+                </div>
+                <div class="serviceMenu">
+                    <ul class="">
+                        <li>服务区域：<span></span></li>
+                        <li><a href="#">检修</a><span>|</span></li>
+                        <li><a href="#">保养</a><span>|</span></li>
+                        <li><a href="#">改造优化</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+    <!-- 主内容区 -->
+    <div class="container-fluid mt-3">
+        <div class="d-flex justify-content-between">
+            <div class="p-0 bg-leftMenu" style="width:18%">
+                <div class="card">
+                    <div class="card-header ft-16 bg-header text-white">
+                        1000MW超临界机组服务BOM
+                    </div>
+                    <div class="card-body p-0 bg-header">
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                <a class="d-flex justify-content-between text-white" href="#">
+                                    <div>发电机</div>
+                                    <div>></div>
+                                </a>
+                            </li>
+                            <li class="list-group-item">
+                                <a class="d-flex justify-content-between text-white" href="#">
+                                    <div>汽轮机</div>
+                                    <div>></div>
+                                </a>
+                            </li>
+                            <li class="list-group-item">
+                                <a class="d-flex justify-content-between text-white" href="#">
+                                    <div>锅炉</div>
+                                    <div>></div>
+                                </a>
+                            </li>
+                            <li class="list-group-item">
+                                <a class="d-flex justify-content-between text-white" href="#">
+                                    <div>辅机</div>
+                                    <div>></div>
+                                </a>
+                            </li>
+                        </ul>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="p-0 pr-3" style="width:67%">
+                <ul class="nav nav-tabs bg-dark pt-2 pl-1" id="myTab" role="tablist">
+                    <li class="nav-item active">
+                        <a class="nav-link active ft-14 text-white bg-primary" id="daily-tab" data-toggle="tab" href="#tab1" role="tab" aria-controls="daily"
+                            aria-selected="true">
+                             设备基本信息
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ft-14 text-white" id="overhaul-tab" data-toggle="tab" href="#tab2" role="tab" aria-controls="overhaul"
+                            aria-selected="true">
+                            设备部套/结构信息
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ft-14 text-white" id="exception-tab" data-toggle="tab" href="#tab3" role="tab" aria-controls="exception"
+                            aria-selected="true">
+                            设备静态（参数）信息
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ft-14 text-white" id="exception-tab" data-toggle="tab" href="#tab4" role="tab" aria-controls="exception"
+                            aria-selected="true">
+                            设备档案信息
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ft-14 text-white" id="exception-tab" data-toggle="tab" href="#tab5" role="tab" aria-controls="exception"
+                            aria-selected="true">
+                            设备制造信息
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ft-14 text-white" id="exception-tab" data-toggle="tab" href="#tab6" role="tab" aria-controls="exception"
+                            aria-selected="true">
+                            设备动态信息
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ft-14 text-white" id="exception-tab" data-toggle="tab" href="#tab7" role="tab" aria-controls="exception"
+                            aria-selected="true">
+                            设备服务信息
+                        </a>
+                    </li>
+                </ul>
+                <div class="tab-content border border-top-0" id="myTabContent" >
+                    <div class="tab-pane fade show active" id="tab1" role="tabpanel" aria-labelledby="daily-tab">
+                        <div class="row m-0">
+                            <div class="col-7 p-0">
+                                <img src="images/dingzi.png" alt="">
+                            </div>
+                            <div class="col-5 bg-leftMenu p-0">
+                                <div class="card">
+                                    <div class="card-header bg-leftMenu ft-18 text-white">
+                                        1000MW超超临界机组
+                                    </div>
+                                    <div class="card-body p-0">
+                                        <div class="d-flex flex-row pl-4 pb-2 pt-2 pr-5 bg-header ft-16">
+                                            <span class="text-white mr-2">></span>
+                                            <a href="#demo1" data-toggle="collapse" class="text-white">Q5E671F8588MS定子线圈转配</a>
+                                        </div>
+                                        <div id="demo1" class="collapse show">
+                                            <ul class="list-unstyled pl-3 bg-item mb-0">
+                                                <li class="d-flex justify-content-lg-between pl-4 pt-2 pr-5 pb-2">
+                                                    <div class="text-white ft-14">定子检修</div>
+                                                    <div class="text-white ft-14">PQ00000980B</div>
+                                                </li>
+                                                <li class="d-flex justify-content-lg-between pl-4 pt-2 pr-5 pb-2">
+                                                    <div class="text-white ft-14">总水管绝缘</div>
+                                                    <div class="text-white ft-14">PQ00000980B</div>
+                                                </li>
+                                                <li class="d-flex justify-content-lg-between pl-4 pt-2 pr-5 pb-2">
+                                                    <div class="text-white ft-14">总水管绝缘</div>
+                                                    <div class="text-white ft-14">PQ00000980B</div>
+                                                </li>
+                                                <li class="d-flex justify-content-lg-between pl-4 pt-2 pr-5 pb-2">
+                                                    <div class="text-white ft-14">总水管绝缘</div>
+                                                    <div class="text-white ft-14">PQ00000980B</div>
+                                                </li>
+                                                <li class="d-flex justify-content-lg-between pl-4 pt-2 pr-5 pb-2">
+                                                    <div class="text-white ft-14">总水管绝缘</div>
+                                                    <div class="text-white ft-14">PQ00000980B</div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="d-flex flex-row pl-4 pb-2 pt-2 pr-5 bg-header">
+                                            <span class="text-white mr-2">></span>
+                                            <a href="#demo1" data-toggle="collapse" class="text-white ft-16">定子线圈转配</a>
+                                        </div>
+                                        <div id="demo1" class="collapse">
+                                            <ul class="list-unstyled pl-3 bg-item mb-0">
+                                                <li class="d-flex justify-content-lg-between pl-4 pt-2 pr-5 pb-2">
+                                                    <div class="text-white ft-14">定子检修</div>
+                                                    <div class="text-white ft-14">PQ00000980B</div>
+                                                </li>
+                                                <li class="d-flex justify-content-lg-between pl-4 pt-2 pr-5 pb-2">
+                                                    <div class="text-white ft-14">总水管绝缘</div>
+                                                    <div class="text-white ft-14">PQ00000980B</div>
+                                                </li>
+                                                <li class="d-flex justify-content-lg-between pl-4 pt-2 pr-5 pb-2">
+                                                    <div class="text-white ft-14">总水管绝缘</div>
+                                                    <div class="text-white ft-14">PQ00000980B</div>
+                                                </li>
+                                                <li class="d-flex justify-content-lg-between pl-4 pt-2 pr-5 pb-2">
+                                                    <div class="text-white ft-14">总水管绝缘</div>
+                                                    <div class="text-white ft-14">PQ00000980B</div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="d-flex flex-row pl-4 pb-2 pt-2 pr-5 bg-header ft-16">
+                                            <span class="text-white mr-2">></span>
+                                            <a href="#demo1" data-toggle="collapse" class="text-white">Q5E671F8588MS定子线圈转配</a>
+                                        </div>
+                                        <div id="demo1" class="collapse show">
+                                            <ul class="list-unstyled pl-3 bg-item mb-0">
+                                                <li class="d-flex justify-content-lg-between pl-4 pt-2 pr-5 pb-2">
+                                                    <div class="text-white ft-14">定子检修</div>
+                                                    <div class="text-white ft-14">PQ00000980B</div>
+                                                </li>
+                                                <li class="d-flex justify-content-lg-between pl-4 pt-2 pr-5 pb-2">
+                                                    <div class="text-white ft-14">总水管绝缘</div>
+                                                    <div class="text-white ft-14">PQ00000980B</div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="d-flex flex-row pl-4 pb-2 pt-2 pr-5 bg-header">
+                                            <span class="text-white mr-2">></span>
+                                            <a href="#demo1" data-toggle="collapse" class="text-white ft-16">定子线圈转配</a>
+                                        </div>
+                                        <div id="demo1" class="collapse">
+                                            <ul class="list-unstyled pl-3 bg-item mb-0">
+                                                <li class="d-flex justify-content-lg-between pl-4 pt-2 pr-5 pb-2">
+                                                    <div class="text-white ft-14">定子检修</div>
+                                                    <div class="text-white ft-14">PQ00000980B</div>
+                                                </li>
+                                                <li class="d-flex justify-content-lg-between pl-4 pt-2 pr-5 pb-2">
+                                                    <div class="text-white ft-14">总水管绝缘</div>
+                                                    <div class="text-white ft-14">PQ00000980B</div>
+                                                </li>
+                                            </ul>
+                                        </div>                                        
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="">
+                            <table class="table table-bordered ft-12">
+                                <thead>
+                                    <tr class="bg-primary">
+                                        <th class="text-center">零件编号</th>
+                                        <th class="text-center">零件名称</th>
+                                        <th class="text-center">技术参数</th>
+                                        <th class="text-center">生命周期</th>
+                                        <th class="text-center">剩余寿命</th>
+                                        <th class="text-center">建议维修保养时间</th>
+                                        <th class="text-center">建议更换时间</th>
+                                        <th class="text-center">服务订单</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="bg-white">
+                                        <td>&nbsp;</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="overhaul-tab">
+                        第二tab内容
+                    </div>
+                    <div class="tab-pane fade" id="tab3" role="tabpanel" aria-labelledby="exception-tab">
+                        第三tab内容
+                    </div>
+                </div>
+            </div>
+            <div class="p-0" style="width:15%">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="loginContent">
+                            <div class="loginInfo">
+                                <div class="d-flex justify-content-center">
+                                    <div><img src="images/loginuser.png"></div>
+                                    <div><h5>欢迎铜陵电厂</h5></div>
+                                </div>
+                            </div>
+                            <div class="loginButton">
+                                <div class="btn-group">
+                                    <a class="btn">登录</a>
+                                    <a class="btn">注册</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mt-3">
+                    <div class="card-header ft-18">
+                        维修采购订单
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-unstyled">
+                            <li class="p-2">2019.11.11采购订单</li>
+                            <li class="p-2">2019.11.11采购订单</li>
+                            <li class="p-2">2019.11.11采购订单</li>
+                            <li class="p-2">2019.11.11采购订单</li>
+                            <li class="p-2">2019.11.11采购订单</li>
+                            <li class="p-2">2019.11.11采购订单</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <!-- 备品备件区 -->
+     <div class="container-fluid">
+        <div class="pageBei">
+            <div class="d-flex justify-content-between">
+                <div><h6>1000MW发电机组备品备件区</h6></div>
+                <div><a href="#">查看全部 ></a></div>
+            </div>
+        </div>
+        <div class="cardlist mt-2">
+            <div class="row">
+                <div class="col-2 mb">
+                    <div class="card">
+                        <img class="card-img-top" src="images/bj1.png" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">镀锌钢内六角柱头螺钉</h5>
+                            <p class="card-text">_M5x16_GB65</p>
+                            <p class="card-text">14001954</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2 mb">
+                    <div class="card">
+                        <img class="card-img-top" src="images/bj1.png" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">镀锌钢内六角柱头螺钉</h5>
+                            <p class="card-text">_M5x16_GB65</p>
+                            <p class="card-text">14001954</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2 mb">
+                    <div class="card">
+                        <img class="card-img-top" src="images/bj1.png" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">镀锌钢内六角柱头螺钉</h5>
+                            <p class="card-text">_M5x16_GB65</p>
+                            <p class="card-text">14001954</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2 mb">
+                    <div class="card">
+                        <img class="card-img-top" src="images/bj1.png" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">镀锌钢内六角柱头螺钉</h5>
+                            <p class="card-text">_M5x16_GB65</p>
+                            <p class="card-text">14001954</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2 mb">
+                    <div class="card">
+                        <img class="card-img-top" src="images/bj1.png" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">镀锌钢内六角柱头螺钉</h5>
+                            <p class="card-text">_M5x16_GB65</p>
+                            <p class="card-text">14001954</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2 mb">
+                    <div class="card">
+                        <img class="card-img-top" src="images/bj1.png" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">镀锌钢内六角柱头螺钉</h5>
+                            <p class="card-text">_M5x16_GB65</p>
+                            <p class="card-text">14001954</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    
+</body>
+
+</html>
