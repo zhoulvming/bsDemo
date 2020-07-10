@@ -73,3 +73,21 @@ form{
 .bg-item {
     background: #3B778E;
 }
+.slant1 {
+    height: 35px;
+    line-height: 35px;
+    background: #58a;
+    color: #fff;
+    text-align: center;
+    font-size: 10px;
+    background: linear-gradient(-58deg, transparent 25px, #59D 0);
+}
+.slant2 {
+    height: 35px;
+    line-height: 35px;
+    background: #fff;
+    color: #fff;
+    text-align: center;
+    font-size: 10px;
+    background: linear-gradient(122deg, transparent 25px, #fff 0);
+}
