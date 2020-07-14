@@ -23,7 +23,6 @@ form{
 }
 
 .searchbox button {
-    background: #ddd;
     border: none;
     padding-left: 8px !important;
     padding-right: 8px !important;
@@ -90,4 +89,8 @@ form{
     text-align: center;
     font-size: 10px;
     background: linear-gradient(122deg, transparent 25px, #fff 0);
+}
+
+.text-gray {
+    color: #bbb;
 }
